@@ -3,33 +3,32 @@ body {
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 100%;
     position: relative;
     padding-bottom: 6rem;
 }
 
+.container {
+    min-height: 100vh;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 10px;
+}
+
 #aboutMe {
-    width: 300px;
-    height: 230px;
+    width: 250px;
+    height: 300px;
     float: left;
     padding-right: 15px;
 }
+
 footer {
-/*    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    background-color: #efefef;
-    text-align: center;
-    font-size: smaller;
-    */
-    position: fixed;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 1rem;
     font-size: smaller;
     background-color: white;
     text-align: center;
+    padding: 10px;
 }
-
