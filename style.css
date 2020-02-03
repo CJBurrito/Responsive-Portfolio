@@ -1,6 +1,6 @@
 body {
     background-image: url("https://jooinn.com/images/palm-trees-33.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 100%;
@@ -17,8 +17,8 @@ body {
 }
 
 #aboutMe {
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 240px;
     float: left;
     padding-right: 15px;
 }
@@ -32,3 +32,11 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+@media screen and (max-width: 640px) {
+    #aboutMe {
+      width: 280px;
+      height: 350px;
+    }
+}
+  
